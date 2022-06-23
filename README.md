@@ -10,8 +10,8 @@
 ### A new folder should be created and once Visual Studio Code is installed, open the new folder in VS and make a new HTML file titled index.html and a new CSS folder titled style.css. Start on HTML code and once that is completed, start on your CSS file and view all changes and progress in the "Open Browser" extention-search for and install "Open in Browser" extention in the VS side bar. 
 ### GitBash Terminal is once again needed to updload edits made in your local repository onto GitHub-using the same commands of git add ./git commit -m/git push in order for the changes to be displayed when website is deployed. Once changes are uploaded, navigate to the settings where your repository is displayed on GitHub and scroll down to Pages in the sidebar. Once there, under Source, select Branch:main and save. A link will then appear and although it will take time, the website will be ready.
 ## Screenshot
-### <img width="1128" alt="2022-06-22" src="https://user-images.githubusercontent.com/104933717/175224791-eadab3e1-a40c-4b02-b6c6-8308803a1ac1.png">
-### <img width="1128" alt="2022-06-22 (1)" src="https://user-images.githubusercontent.com/104933717/175224835-0be38bc5-ccfd-4a89-ac5a-39ed4f822a53.png">
+### <img width="1128" alt="2022-06-22 (2)" src="https://user-images.githubusercontent.com/104933717/175226050-f29d01ed-befe-44cd-957e-76d89002f94b.png">
+### <img width="1128" alt="2022-06-22 (3)" src="https://user-images.githubusercontent.com/104933717/175226091-33adcd10-234c-4482-96b7-b338ff2b0882.png">
 ## Link
 ### https://asiyahaa.github.io/portfolio-challenge-two/
 ## Status 
