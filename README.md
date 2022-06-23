@@ -1,6 +1,6 @@
 # portfolio-challenge-two
 ## Description
-### Project purpose was to create a portfolio using advanced CSS skills. Using skills like flexbox properties, positioning, media queires, and animations, a portfolio website was to be created following mock portfolio example given in assignment instructions. Using skills learned (semantic tags and proper HMTL coding), and along with new skills learned (advanced CSS), portfolio website should be creative, engaging, and accessible to all.    
+### Project purpose was to create a portfolio using advanced CSS skills. Using skills like flexbox properties, positioning, media queires, and animations, a portfolio website was to be created following mock portfolio example given in assignment instructions. Using skills learned (semantic tags and proper HMTL coding), and along with new skills learned (advanced CSS), the portfolio website should be creative, engaging, and accessible to all.    
 ## User
 ### User should be able to see/hear a functioning website with clear headers and subheaders, navigation links that work and have a hover effect, a backgorund avatar with a subtitle and a description, background images for work projects with a hover effect, work sections when selected or hovered over get bigger in size, an About Me section, a Work section, and a Contact Me section-and section contents-with a clear and organized layout. Content should adapt to screen size and content should rearrange itself once screen gets smaller or bigger.
 ## Technologies
