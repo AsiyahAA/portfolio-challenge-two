@@ -50,6 +50,10 @@ header a {
     text-decoration: underline;
 }
 
+header a:hover {
+    background-color: var(--secondary);
+}
+
 #hero {
     background-image: url(https://cdni.iconscout.com/illustration/premium/thumb/black-muslim-woman-4240831-3518326.png);
 }
@@ -108,11 +112,19 @@ h2 {
     text-decoration: underline;
 }
 
+#number:hover {
+    background-color: var(--secondary);
+}
+
 .link {
     font-size: 20px;
     color: var(--quaternart);
     text-decoration: underline;
     display: inline-block;
+}
+
+.link:hover {
+    background-color: var(--secondary);
 }
 
  
