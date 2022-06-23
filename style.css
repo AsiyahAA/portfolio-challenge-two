@@ -72,11 +72,13 @@ h2 {
     flex-direction: column;
     align-items: stretch;
 }
+
 .headersection {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .headersection div {
     width: 40%;
     color: var(--quaternart);
@@ -93,8 +95,18 @@ h2 {
     color: yellow;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.child {
+    justify-content: flex-end;
+}
+
 #work-one {
     width: 40%;
+    background-image: url(https://previews.123rf.com/images/peshkov/peshkov1905/peshkov190500374/128578729-abstract-glowing-circuit-coding-background-programming-and-technology-concept-3d-rendering.jpg);
 }
 
 #work-two,
@@ -102,6 +114,7 @@ h2 {
 #work-four,
 #work-five {
     width: 10%;
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v627-aew-41-technologybackground_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=830e4e729fe5bfb776d8789227be01d3);
 }
 
 #number {
