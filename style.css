@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #7b6d8d;
+    --secondary: #8499b1;
+    --tertiary: #593f62;
+    --quaternart: #a5c4d4;
+    --quinary: #36151E;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--quaternart);
+}
+
+header {
+    background-color: var(--tertiary);
+    padding: 2px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 50px;
+    color: var(--quaternart);
+}
+
+header nav {
+    float: right;
+    padding: 2px;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 25px;    
+}
+
+header a {
+    color: var(--quaternart);
+    text-decoration-color: var(--quaternart);
+    text-decoration: underline;
+}
+
+#hero {
+    background-image: url(https://cdni.iconscout.com/illustration/premium/thumb/black-muslim-woman-4240831-3518326.png);
+}
+
+figcaption {
+    display: inline-block;
+    font-size: 25px;
+    color: red;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 50px;
+    display: inline;
+    border-right: 5px solid var(--quinary);
+    flex-direction: column;
+    align-items: stretch;
+}
+.headersection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.headersection div {
+    width: 40%;
+    color: var(--quaternart);
+    font-size: 25px;
+}
+
+.headersection div {
+    list-style-type: none;
+}
+
+.headersection ul li,
+#contact {
+    display: inline-block;
+    color: yellow;
+}
+
+#work-one {
+    width: 40%;
+}
+
+#work-two,
+#work-three,
+#work-four,
+#work-five {
+    width: 10%;
+}
+
+#number {
+    width: 20%;
+    font-size: 20px;
+    display: inline-block;
+    color: var(--quaternart);
+    text-decoration: underline;
+}
+
+.link {
+    font-size: 20px;
+    color: var(--quaternart);
+    text-decoration: underline;
+    display: inline-block;
+}
+
+ 
+h3 {
+    display: inline;
+}
+
+#refactor {
+    width: 20%;
+    flex-wrap: wrap;
+
+}
+
+#sheet {
+    width: 10%;
+    flex-wrap: wrap;
+}
+
+#box {
+    width: 10%;
+    flex-wrap: wrap;
+}
+
+#debugger {
+    width: 10%;
+    flex-wrap: wrap;
+}
+
+#landing {
+    width: 10%;
+    flex-wrap: wrap;
+}
