@@ -68,7 +68,6 @@ figcaption {
 h2 {
     font-size: 50px;
     display: inline;
-    border-right: 5px solid var(--quinary);
     flex-direction: column;
     align-items: stretch;
 }
@@ -79,6 +78,8 @@ h2 {
 }
 .headersection h2 {
     width: 30%;
+    padding: 15px;
+    border-right: 5px solid var(--quinary);
 }
 .content {
     width: 70%;
@@ -87,38 +88,48 @@ h2 {
     font-size: 25px;
 }
 
-/* .headersection div {
-    list-style-type: none;
-} */
+.content p {
+    margin: 20px;
+}
 
 .headersection ul li,
 #contact {
     display: inline-block;
     color: yellow;
+    margin-top: 400px;
+    padding: 15px;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
+#ContactMe {
+    margin-top: 400px;
+}
+
+
+#row-one {
+    width: 65%;
+    height: 100%;
+    margin: 20px;
 }
 
 .smaller-rows .child {
     width: 50%;
-    margin: 5px;
+    margin: 20px;
 }
+
 .smaller-rows {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 80%;
 }
+
 
 #row-one {
-    width: 100%;
+    background-image: url(https://previews.123rf.com/images/peshkov/peshkov1905/peshkov190500374/128578729-abstract-glowing-circuit-coding-background-programming-and-technology-concept-3d-rendering.jpg);
 }
 
-#work-one {
-    background-image: url(https://previews.123rf.com/images/peshkov/peshkov1905/peshkov190500374/128578729-abstract-glowing-circuit-coding-background-programming-and-technology-concept-3d-rendering.jpg);
-    width: 100%;
+h3 a {
+    color: var(--quaternart);
 }
 
 #work-two,
@@ -130,7 +141,7 @@ h2 {
 
 #number {
     width: 20%;
-    font-size: 20px;
+    font-size: 25px;
     display: inline-block;
     color: var(--quaternart);
     text-decoration: underline;
@@ -141,41 +152,14 @@ h2 {
 }
 
 .link {
-    font-size: 20px;
+    font-size: 25px;
     color: var(--quaternart);
     text-decoration: underline;
     display: inline-block;
+    margin: 20px;
 }
 
 .link:hover {
     background-color: var(--secondary);
 }
 
- 
-
-
-#refactor {
-    width: 20%;
-    flex-wrap: wrap;
-
-}
-
-#sheet {
-    width: 10%;
-    flex-wrap: wrap;
-}
-
-#box {
-    width: 10%;
-    flex-wrap: wrap;
-}
-
-#debugger {
-    width: 10%;
-    flex-wrap: wrap;
-}
-
-#landing {
-    width: 10%;
-    flex-wrap: wrap;
-}
