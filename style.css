@@ -167,7 +167,7 @@ h3 a {
     background-color: var(--secondary);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 692px) {
     body {
         background-color: var(--secondary);
         color: var(--quinary);
@@ -187,5 +187,5 @@ h3 a {
     h3 a {
         color: var(--primary)
     }
-
 }
+  
