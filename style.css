@@ -184,7 +184,8 @@ h3 a {
     }
 
     h3,
-    h3 a {
+    h3 a,
+    #work-two p {
         color: var(--primary)
     }
 }
